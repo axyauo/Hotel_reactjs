@@ -1,0 +1,20 @@
+.services {
+  text-align: center;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+}
+.iconsImg {
+  width: 30%;
+  margin: auto;
+}
+
+.iconsImg img {
+  width: 100%;
+  height: auto;
+}
+.services p {
+  font-weight: 600;
+  color: #858585;
+  font-family: "boxicons";
+}

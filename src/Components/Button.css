@@ -1,0 +1,27 @@
+.overlayButton {
+  font-family: "Space Grotesk", Sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #00000000;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: #ffffff;
+  border-radius: 0px 0px 0px 0px;
+  padding: 20px 35px 20px 35px;
+  transition: transform 0.6s ease;
+}
+.overlayButton:hover {
+  transform: translateY(-10px);
+  color: #ffffff;
+  background-color: #02010100;
+  border-color: #ffffff;
+}
+@media (max-width: 375px) {
+  .overlayButton {
+    font-size: 12px;
+    padding: 12px 20px;
+  }
+}

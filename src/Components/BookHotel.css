@@ -1,0 +1,64 @@
+.search-container {
+  width: 100%;
+  padding: 30px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-top: -3em;
+  position: relative;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"],
+.form-group input[type="number"],
+.form-group input[type="tel"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px; /* Add margin bottom for inputs */
+}
+
+.search-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: #0056b3;
+}
+
+form {
+  width: 100%;
+}
+.search-button {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.search-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  color: #f00;
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.search-btn:hover {
+  background: black;
+  color: white;
+}

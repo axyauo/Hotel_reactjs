@@ -1,0 +1,27 @@
+.roomsintro p,
+.roomPrice p {
+  font-size: 18px;
+  color: #8a8a8a;
+  font-family: monospace;
+  line-height: 1.2;
+  word-spacing: -3.8px;
+  text-align: center;
+}
+.roomsintro h3 {
+  font-weight: 700;
+}
+.roomPrice p span {
+  color: black;
+  font-size: 2em;
+  font-weight: 700;
+  font-family: fangsong;
+}
+.roomsAvail {
+  padding: 1em;
+}
+@media (max-width: 321px) {
+  .roomsintro p,
+  .roomPrice p {
+    font-size: 12px;
+  }
+}

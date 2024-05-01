@@ -1,0 +1,14 @@
+.heading_all {
+  font-family: "Space Grotesk", Sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.1em;
+  margin-top: ;
+}
+.heading_all:before {
+  content: "";
+  border: 5px solid red;
+  transform: rotate(90deg);
+  margin-right: 8px;
+}

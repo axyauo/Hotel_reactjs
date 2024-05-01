@@ -1,0 +1,24 @@
+.hotelImg img {
+  border-radius: 100%;
+  width: 100%;
+  height: auto;
+}
+.hotelInfo p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #aea5a5;
+}
+.hotelInfo h4 a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+.quick h3 span {
+  font-size: 20px;
+  color: red;
+}
+.quick button,
+.quick button:hover {
+  border: 1px solid black;
+  color: black;
+}
