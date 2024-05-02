@@ -45,7 +45,7 @@ const BookHotel = () => {
   };
 
   return (
-    <div className="search-container">
+    <div className="search-container additionals">
       <form className='row' onSubmit={handleSubmit}>
         <div className="col-lg-10 col-12">
           <div className="row">

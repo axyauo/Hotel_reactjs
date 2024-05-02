@@ -87,21 +87,21 @@ export default function Hotel01() {
               <div className="carousel-overlay"></div>
               <img src={slide1} className="d-block w-100" alt="Slide 1" />
               <div className="carousel-caption d-md-block left-slide">
-                <p>Step into a world of comfort and luxury. Our rooms await your arrival</p>
+                <p>Step Into a World of Comfort and Luxury. Our Rooms Await Your Arrival</p>
               </div>
             </div>
             <div className="carousel-item">
               <div className="carousel-overlay"></div>
               <img src={slide2} className="d-block w-100" alt="Slide 2" />
               <div className="carousel-caption d-md-block right-slide">
-                <p>Let your event shine in our beautiful, customizable Banquet space</p>
+                <p>Let Your Event Shine in Our Beautiful, Customizable Banquet Space</p>
               </div>
             </div>
             <div className="carousel-item">
               <div className="carousel-overlay"></div>
               <img src={slide3} className="d-block w-100" alt="Slide 3" />
               <div className="carousel-caption d-md-block left-slide">
-                <p>Crafting flavours, creating memories. Book your table at our restaurant</p>
+              <p>Crafting Flavours, Creating Memories. Book Your Table at Our Restaurant</p>
               </div>
             </div>
           </div>
@@ -165,7 +165,7 @@ export default function Hotel01() {
         </div>
       </section>
       <section class="restaurants-area_ pb-3">
-          <div class="container px-0">
+          <div class="container-fluid px-0">
               <div class="section-title">
                   <h2>The Area We Cover Under<br /> Archie Regency</h2>
               </div>
