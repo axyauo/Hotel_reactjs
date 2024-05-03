@@ -26,7 +26,7 @@ let Body = () => {
         // Replace this with actual fetching logic
         setTimeout(() => {
             setCounts({
-                hotelRooms: 50,
+                hotelRooms: 50,  
                 activities: 15,
                 restaurants: 6
             });
