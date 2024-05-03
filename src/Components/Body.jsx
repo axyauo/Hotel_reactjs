@@ -45,7 +45,7 @@ let Body = () => {
         return () => clearInterval(incrementInterval);
     }, []);
 
-    // Render the count items dynamically
+    // Render the count items dynamically  
     const countItems = Object.entries(counts).map(([key, value]) => (
         <div className="col-4" key={key}>
             <p>
